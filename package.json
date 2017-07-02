@@ -1,13 +1,8 @@
 {
-  "name": "express-typescript-starter",
+  "name": "starter-node-express",
   "version": "0.1.0",
   "description": "A starting point for Node.js express apps with TypeScript",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
-  },
-  "author": "Bowden Kelly",
-  "license": "MIT",
+  "repository": "git@github.com:mrfrederico-ist/starter-node-express-ts.git",
   "scripts": {
     "start": "npm run build && npm run watch",
     "build": "npm run build-sass && npm run build-ts && npm run tslint && npm run copy-static-assets",
