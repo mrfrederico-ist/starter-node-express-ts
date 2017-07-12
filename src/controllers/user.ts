@@ -86,7 +86,9 @@ export let getSignup = (req: Request, res: Response) => {
  */
 export let postSignup = (req: Request, res: Response, next: NextFunction) => {
   req.assert('email', 'Email is not valid').isEmail()
-  req.assert('password', 'Password must be at least 4 characters long').len(4)
+  req
+    .assert('password', 'Password must be at least 4 characters long')
+    .len({ min: 4 })
   req
     .assert('confirmPassword', 'Passwords do not match')
     .equals(req.body.password)
@@ -192,7 +194,9 @@ export let postUpdatePassword = (
   res: Response,
   next: NextFunction
 ) => {
-  req.assert('password', 'Password must be at least 4 characters long').len(4)
+  req
+    .assert('password', 'Password must be at least 4 characters long')
+    .len({ min: 4 })
   req
     .assert('confirmPassword', 'Passwords do not match')
     .equals(req.body.password)
@@ -298,7 +302,9 @@ export let getReset = (req: Request, res: Response, next: NextFunction) => {
  * Process the reset password request.
  */
 export let postReset = (req: Request, res: Response, next: NextFunction) => {
-  req.assert('password', 'Password must be at least 4 characters long.').len(4)
+  req
+    .assert('password', 'Password must be at least 4 characters long.')
+    .len({ min: 4 })
   req.assert('confirm', 'Passwords must match.').equals(req.body.password)
 
   const errors = req.validationErrors()
