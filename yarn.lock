@@ -106,8 +106,8 @@
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-20.0.2.tgz#86c751121fb53dbd39bb1a08c45083da13f2dc67"
 
 "@types/jquery@^3.2.5":
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.2.6.tgz#9890ec300a1521d282ded775d2759f82df88d7cc"
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.2.7.tgz#e91cb855096f328962c8e63194e7d2d36f1dce9b"
 
 "@types/lodash@^4.14.63":
   version "4.14.68"
@@ -138,8 +138,8 @@
     "@types/express" "*"
 
 "@types/node@*", "@types/node@^8.0.7":
-  version "8.0.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.10.tgz#12efec9183b072d5f951cf86395a4c780f868a17"
+  version "8.0.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.11.tgz#3cf80de7185292c6dab156ece696dffed0cc3502"
 
 "@types/nodemailer-direct-transport@*":
   version "1.0.29"
@@ -175,9 +175,9 @@
   dependencies:
     "@types/express" "*"
 
-"@types/request@^0.0.45":
-  version "0.0.45"
-  resolved "https://registry.yarnpkg.com/@types/request/-/request-0.0.45.tgz#c6e52be8b108eb035c35aa9af56a38a260c3e7e6"
+"@types/request@^0.0.46":
+  version "0.0.46"
+  resolved "https://registry.yarnpkg.com/@types/request/-/request-0.0.46.tgz#918fdfae249090d018901fc291ae4c4ceac30e6b"
   dependencies:
     "@types/form-data" "*"
     "@types/node" "*"
@@ -190,14 +190,14 @@
     "@types/mime" "*"
 
 "@types/superagent@*":
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-3.5.2.tgz#229417d8ca61acb9140e795a7c792517be6a950c"
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-3.5.3.tgz#45a23dce949b9c29b48f842ddf87b2fb87cf76af"
   dependencies:
     "@types/node" "*"
 
 "@types/supertest@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/supertest/-/supertest-2.0.1.tgz#66e8d84a274ad4bbbeb97d77329e53d90b82f112"
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/supertest/-/supertest-2.0.2.tgz#c81c797c185f5776a236a0884eddadc35280f6f7"
   dependencies:
     "@types/superagent" "*"
 
@@ -2517,9 +2517,9 @@ mongodb@2.2.27:
     mongodb-core "2.1.14"
     readable-stream "2.2.7"
 
-mongoose@^4.11.0:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.11.1.tgz#2560b6d89e744b05857d024cab8b316066716e3e"
+mongoose@4.10.8:
+  version "4.10.8"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.10.8.tgz#31f44ed7884756f9fd9b7708ddcb3fcb4250f34e"
   dependencies:
     async "2.1.4"
     bson "~1.0.4"
@@ -3811,8 +3811,8 @@ tslint@^5.0.0:
     tsutils "^2.5.1"
 
 tsutils@^2.5.1:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.6.0.tgz#e5e99c79a8accd3977ce18d83fdf1d235a6c2ebb"
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.6.1.tgz#98ecf009594f4e4af884057be4cf41a450bc7637"
   dependencies:
     tslib "^1.7.1"
 
